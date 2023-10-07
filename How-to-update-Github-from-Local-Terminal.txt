@@ -1,0 +1,12 @@
+
+#步骤 1：进入存储库目录
+cd /path/to/your/repository
+
+#步骤 2-1：在编辑完代码后，使用以下命令将更改添加到 Git 暂存区
+git add .
+
+#步骤 2-2：使用 git commit 命令来提交更改，并附上一个提交消息：
+git commit -m "提交消息"
+
+#步骤 3：推送更改到 GitHub
+git push origin main
